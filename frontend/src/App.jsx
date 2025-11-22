@@ -25,7 +25,6 @@ export default function App() {
     "statements",
     "settings",
   ]);
-  
 
   const handleNavigate = (page) => {
     if (!isAuthenticated && protectedPages.has(page)) {
